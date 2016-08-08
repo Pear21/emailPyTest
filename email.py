@@ -12,10 +12,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 
 sender="emailPyTestG@gmail.com"
-receiver=["pengye@genomics.cn", "498010784@qq.com"]#, "zhouze@genomics.cn"]
+receiver=["pengye@genomics.cn"]#, "zhouze@genomics.cn"]
 subject="python email test 160807"
 usrname=sender
-passwd="naafmdealogofnmq"
+passwd="my real passwd"
 
 """
 ## faking text
@@ -77,3 +77,5 @@ try:
 except:
     print "Error: cannot send"
     exit(1)
+
+# git version
